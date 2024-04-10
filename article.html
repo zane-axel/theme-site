@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Article Website</title>
+</head>
+<body>
+    <h1>Welcome to Random Article Website!</h1>
+    <p>Click on one of the buttons below to view a random article.</p>
+    <button onclick="showRandomArticle()">Button 1</button>
+    <button onclick="showRandomArticle()">Button 2</button>
+    <button onclick="showRandomArticle()">Button 3</button>
+    <button onclick="showRandomArticle()">Button 4</button>
+    <button onclick="showRandomArticle()">Button 5</button>
+
+    <div id="article-container">
+        <!-- Random article content will appear here -->
+    </div>
+
+    <script>
+        function showRandomArticle() {
+            // Replace this with code to fetch and display a random article
+            document.getElementById("article-container").innerHTML = "<h2>Random Article</h2><p>This is a random article.</p>";
+        }
+    </script>
+</body>
+</html>
