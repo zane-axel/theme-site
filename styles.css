@@ -49,7 +49,7 @@ button {
     cursor: pointer;
     background-color: #0ff;
     color: #000;
-    transition: background-color 0s ease-in-out;
+    transition: background-color 0.2s ease-in-out;
 }
 
 button:hover {
@@ -59,4 +59,24 @@ button:hover {
 
 #article-container {
     margin-top: 50px;
+}
+
+/* Responsive Styles */
+@media only screen and (max-width: 600px) {
+    .neon-object {
+        width: 200px;
+        height: 200px;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+
+    button {
+        font-size: 0.8rem;
+    }
 }
