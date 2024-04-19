@@ -1,61 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Zoey's Blog Writer Profile</title>
-    <!-- Link to your CSS file -->
-    <link rel="stylesheet" href="styles.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Your Name - Blog Writer</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f8f8f8;
+    }
+    header {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 10px 0;
+    }
+    .container {
+        max-width: 800px;
+        margin: 20px auto;
+        padding: 0 20px;
+    }
+    h1, h2 {
+        color: #333;
+    }
+    p {
+        line-height: 1.6;
+    }
+    footer {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 10px 0;
+        position: fixed;
+        width: 100%;
+        bottom: 0;
+    }
+</style>
 </head>
 <body>
     <header>
-        <h1>Welcome to Zoey's Writing Portfolio</h1>
-        <nav>
-            <ul>
-                <li><a href="#about-me">About Me</a></li>
-                <li><a href="#my-work">My Work</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
+        <h1>Your Name</h1>
+        <p>Blog Writer</p>
     </header>
-
-    <section id="about-me">
-        <h2>About Me</h2>
-        <img src="zoey-profile.jpg" alt="Zoey's Profile Picture" class="profile-img">
-        <p>Hello! I'm Zoey, a passionate freelance blog writer with a love for storytelling and sharing knowledge. Here, you can find samples of my work, client testimonials, and my contact information. I specialize in creating engaging, well-researched content on a variety of topics. Let's connect and bring your stories to life!</p>
-    </section>
-
-    <section id="my-work">
-        <h2>My Writing Samples</h2>
-        <article>
-            <h3>Article Title 1</h3>
-            <p>A brief description of the article. <a href="article-link.html">Read more...</a></p>
-        </article>
-        <article>
-            <h3>Article Title 2</h3>
-            <p>A brief description of the article. <a href="article-link.html">Read more...</a></p>
-        </article>
-        <!-- Add more articles as needed -->
-    </section>
-
-    <section id="contact">
-        <h2>Get In Touch</h2>
-        <form action="submit-form.php" method="post">
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required>
-
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-
-            <label for="message">Message:</label>
-            <textarea id="message" name="message" rows="5" required></textarea>
-
-            <button type="submit">Send Message</button>
-        </form>
-    </section>
-
+    <div class="container">
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Welcome to my blog! I'm passionate about writing and sharing insights on various topics.</p>
+        </section>
+        <section id="blog">
+            <h2>Blog Posts</h2>
+            <article>
+                <h3>Post Title</h3>
+                <p>Blog post content goes here...</p>
+            </article>
+            <!-- Add more articles for other blog posts -->
+        </section>
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <p>Email: your@email.com<br>phone: 123-456-7890</p>
+        </section>
+    </div>
     <footer>
-        <p>&copy; 2023 Zoey's Writing Portfolio. All rights reserved.</p>
+        <p>&copy; 2021 Your Name - Blog Writer</p>
     </footer>
 </body>
 </html>
