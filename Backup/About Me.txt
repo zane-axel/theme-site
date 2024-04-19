@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maverick Winslow - Personal Blog</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+        header {
+            background-color: #007bff;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+        .bio {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        h1, h2 {
+            color: #007bff;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Maverick Winslow - Personal Blog</h1>
+    </header>
+    <div class="container">
+        <div class="bio">
+            <h2>About Me</h2>
+            <p>Hi there! I'm Maverick Winslow, a passionate IT specialist and psychologist with a background in web development and therapy.</p>
+            <p>I obtained my Ph.D. from the University of Pennsylvania between 2006-2008.</p>
+            <p>Welcome to my personal blog where I share insights, experiences, and thoughts on technology, psychology, and everything in between!</p>
+        </div>
+        
+        <!-- Blog Posts Section (You can add your blog posts here) -->
+        <!-- <div class="blog-posts">
+            <h2>Recent Blog Posts</h2>
+            <div class="post">
+                <h3>Post Title 1</h3>
+                <p>Post content goes here...</p>
+            </div>
+            <div class="post">
+                <h3>Post Title 2</h3>
+                <p>Post content goes here...</p>
+            </div>
+            <div class="post">
+                <h3>Post Title 3</h3>
+                <p>Post content goes here...</p>
+            </div>
+        </div> -->
+    </div>
+</body>
+</html>
