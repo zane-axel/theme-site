@@ -49,3 +49,22 @@
             <a href="#">Read More</a>
         </div>
         <!-- Article Card -->
+        <div class="card">        <div class="card">
+            <h3>Boosting E-Commerce Sales: A Checklist</h3>
+            <p>A comprehensive checklist of the best tools and strategies to increase e-commerce store sales.</p>
+            <a href="#">Read More</a>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Please feel free to reach out to me for writing inquiries or opportunities. I can be contacted directly via email at <a href="mailto:zoey@email.com">zoey@email.com</a>.</p>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2024 Zoey. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
