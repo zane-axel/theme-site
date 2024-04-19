@@ -9,8 +9,20 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f0f0f0; /* Light gray background */
+            overflow: hidden; /* Hide overflow to prevent scrollbars */
+            animation: movingBackground 20s linear infinite; /* Apply animation */
         }
+
+        /* Define keyframes for the moving background animation */
+        @keyframes movingBackground {
+            0% {
+                background-position: 0 0;
+            }
+            100% {
+                background-position: 100% 100%;
+            }
+        }
+        
         .container {
             max-width: 800px;
             margin: 20px auto;
